@@ -1,0 +1,22 @@
+{
+    "name": "Fortran & C#",
+    "dockerFile": "Dockerfile",
+    "features": {
+		"ghcr.io/devcontainers/features/dotnet:1": {}
+	},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csharp",
+                "fortran-lang.linter-gfortran"
+            ],
+            "settings": {
+                "editor.bracketPairColorization.enabled": false,
+                "diffEditor.ignoreTrimWhitespace": false,
+                "editor.renderWhitespace": "all",
+                "files.trimTrailingWhitespace": true
+            }
+    	}
+    },
+    "remoteUser": "vscode"
+}

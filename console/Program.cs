@@ -1,0 +1,1 @@
+﻿Console.WriteLine($"Result of 1 + 1 = {Interop.Interop.Add_One(1)}");
