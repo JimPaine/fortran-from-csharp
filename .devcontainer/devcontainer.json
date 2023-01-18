@@ -18,5 +18,10 @@
             }
     	}
     },
+    "runArgs": [
+        "--userns=keep-id",
+        "-v=${localWorkspaceFolder}:/workspace:Z"
+    ],
+    "containerUser": "vscode",
     "remoteUser": "vscode"
 }
