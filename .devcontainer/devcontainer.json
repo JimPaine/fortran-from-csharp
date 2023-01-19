@@ -2,13 +2,17 @@
     "name": "Fortran & C#",
     "dockerFile": "Dockerfile",
     "features": {
-		"ghcr.io/devcontainers/features/dotnet:1": {}
+		"ghcr.io/devcontainers/features/dotnet:1": {
+            "version": "6",
+            "installUsingApt": false
+        }
 	},
     "customizations": {
         "vscode": {
             "extensions": [
                 "ms-dotnettools.csharp",
-                "fortran-lang.linter-gfortran"
+                "fortran-lang.linter-gfortran",
+                "ms-azuretools.vscode-azurefunctions"
             ],
             "settings": {
                 "editor.bracketPairColorization.enabled": false,
